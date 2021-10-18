@@ -121,3 +121,11 @@ File: `embedded.scss`
 You can add CSS and SCSS here as well, the difference is that whatever you add here is only applied to Discourse when it’s embedded on another site. At the moment we support embedding [comments](https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963) and [topic lists](https://meta.discourse.org/t/embedding-a-list-of-discourse-topics-in-another-site/125911).
 
 The desktop and mobile sections are exactly the same except that they will only target their respective devices and they don’t have the Embedded CSS subsection.
+
+
+##### settings.yml
+
+Q: Do I need to include all of these for every theme?
+
+A: No! The only thing required is the about.json file for remote themes. Everything else is optional and should only be added if you need it.
+
