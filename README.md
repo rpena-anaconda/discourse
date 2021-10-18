@@ -123,9 +123,10 @@ You can add CSS and SCSS here as well, the difference is that whatever you add h
 The desktop and mobile sections are exactly the same except that they will only target their respective devices and they don’t have the Embedded CSS subsection.
 
 
-##### settings.yml
+##### Color Schemes
 
-Q: Do I need to include all of these for every theme?
+[Reference about.json]
 
-A: No! The only thing required is the about.json file for remote themes. Everything else is optional and should only be added if you need it.
+A color scheme is a set fo colors you choose that is used to automaticlaly color all the elements in Discourse. The colors are **linked** to the values you enter in the `about.json` file.
 
+Discourse then takes those colors (if that color scheme is active) does a bit of magic to them (see other section) and creates a few variations of those colors to style all the elements. This removes the need to write a gazillion lines of CSS just to change the them colors across the board.
