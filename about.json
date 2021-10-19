@@ -7,16 +7,16 @@
      },
      "color_schemes": {
          "Dune Color Scheme": {
-            "primary": "000000",
-            "secondary": "000000",
-            "tertiary": "000000",
-            "quaternary": "000000",
-            "header_background": "000000",
-            "header_primary": "000000",
-            "highlight": "000000",
-            "danger": "000000",
-            "success": "000000",
-            "love": "000000"
+            "primary": "373A36",
+            "secondary": "FFFFFF",
+            "tertiary": "00A5B5",
+            "quaternary": "43B049",
+            "header_background": "FFFFFF",
+            "header_primary": "373A36",
+            "highlight": "F6E948",
+            "danger": "DB6015",
+            "success": "80BC00",
+            "love": "00A5B5"
           }
       }
   }
